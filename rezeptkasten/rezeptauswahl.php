@@ -7,7 +7,7 @@ $heute = date('d.m.Y');
   <meta charset="UTF-8">
   <title>Rezeptauswahl</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
   <style>
     body { padding-top: 80px; background-color: #f5f5f5; font-family: 'Roboto', sans-serif; }
@@ -132,7 +132,7 @@ $heute = date('d.m.Y');
   </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <script>
   // Rezepte laden (nur Basisdaten, für Modal werden Details nachgeladen)
   const rezepte = <?php

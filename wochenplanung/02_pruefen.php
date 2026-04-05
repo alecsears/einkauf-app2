@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <title>Prüfen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/tokens.css">
   <style>
     :root {
       --bs-primary-rgb: 49, 132, 253;
@@ -14,8 +15,8 @@
     body {
       padding-top: 24px;
       padding-bottom: 120px;
-      background-color: #f4f7f9;
-      font-family: 'Roboto', sans-serif;
+      background-color: var(--color-bg);
+      font-family: var(--font-family-base);
       line-height: 1.6;
     }
     .material-symbols-outlined {
@@ -29,10 +30,10 @@
       left: 0;
       width: 100%;
       z-index: 1050;
-      background-color: #fff;
+      background-color: var(--color-surface);
       padding: 12px 16px;
       box-shadow: 0 -2px 15px rgba(0,0,0,0.08);
-      border-top: 1px solid #e9ecef;
+      border-top: 1px solid var(--color-border);
     }
     .content-card { border-radius: 0.75rem; }
     .korb-tabelle { width: 100%; }
@@ -53,7 +54,7 @@
     .cluster-heading {
       font-weight: 300;
       font-size: 0.8em;
-      color: #555 !important;
+      color: var(--color-text-muted) !important;
       padding: 0.8em 1em;
       background-color: transparent !important;
       border-bottom: 2px solid var(--bs-border-color-translucent);
@@ -65,7 +66,7 @@
       width: 1em; height: 1em;
       font-size: 0.5em; font-weight: 600;
       margin-left: 8px; vertical-align: middle;
-      background-color: #2196f3; color: #fff;
+      background-color: var(--color-info); color: var(--color-surface);
       border: none; border-radius: 50%;
       padding: 0; line-height: 1;
     }
@@ -77,7 +78,7 @@
     .einheit-untertext { font-size: 0.8em; color: var(--bs-secondary-color); }
     .menge-btn-group {
       display: flex; align-items: center; justify-content: center;
-      width: 100px; margin: 0 auto; background: #fff;
+      width: 100px; margin: 0 auto; background: var(--color-surface);
       border-radius: 8px; border: 1px solid var(--bs-border-color); padding: 2px;
     }
     .menge-btn-group .menge-btn {
@@ -86,7 +87,7 @@
       font-size: 26px !important; color: var(--bs-body-color);
       transition: background-color 0.2s, color 0.2s; border-radius: 6px;
     }
-    .produkt-name-link.standard-produkt { color: #4B15DA !important; }
+    .produkt-name-link.standard-produkt { color: var(--color-primary) !important; }
     .menge-btn-group .menge-btn .material-symbols-outlined { font-size: 2rem; }
     .menge-btn-group .menge-btn:active, .menge-btn-group .menge-btn:focus {
       background-color: var(--bs-primary-bg-subtle);
@@ -101,18 +102,17 @@
     .modal-body { max-height: 70vh; overflow-y: auto; }
     .modal-title { font-size: 1.3rem; font-weight: 500; }
     .modal-rezepte-list { font-size: 1.1rem; margin-bottom: 0.3em; margin-top: 0.7em; }
-    .modal-standard-badge { display: inline-block; background: #e0e0e0; color: #333; border-radius: 1em; padding: 0.2em 1em; font-size: 1em; font-weight: 500; margin-bottom: 0.6em; }
-    .modal-standard-badge.ja { background: #2196f3; color: #fff; }
-    .modal-standard-badge.nein { background: #ccc; color: #555; }
+    .modal-standard-badge { display: inline-block; background: var(--color-placeholder-bg); color: var(--color-text-secondary); border-radius: 1em; padding: 0.2em 1em; font-size: 1em; font-weight: 500; margin-bottom: 0.6em; }
+    .modal-standard-badge.ja { background: var(--color-info); color: var(--color-surface); }
+    .modal-standard-badge.nein { background: var(--color-dot-inactive); color: var(--color-text-muted); }
 
     #modalZutatInputSuggestions {
       border: 1px solid #ced4da;
       position: absolute;
-      background-color: #fff;
+      background-color: var(--color-surface);
       width: calc(100% - 2rem);
       z-index: 1055;
       display: none;
-      max-height: 40vh;
       overflow-y: auto;
       border-radius: 0 0 0.5rem 0.5rem;
       box-shadow: 0 8px 16px rgba(0,0,0,0.12);
@@ -141,7 +141,7 @@
       .modal-header,
       .modal-footer {
         position: sticky;
-        background: #fff;
+        background: var(--color-surface);
         z-index: 1;
       }
       .modal-header { top: 0; }
@@ -214,7 +214,7 @@
   </div></div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 <script>
 'use strict';

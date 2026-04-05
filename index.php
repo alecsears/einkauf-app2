@@ -66,7 +66,7 @@ if (empty($_SESSION['logged_in'])):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="assets/tokens.css">
@@ -130,7 +130,7 @@ if (empty($_SESSION['logged_in'])):
       <button type="submit" class="btn btn-success w-100 mb-2">Anmelden</button>
     </form>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <script>
   const pwdInput = document.getElementById('password');
   const toggle = document.getElementById('togglePassword');

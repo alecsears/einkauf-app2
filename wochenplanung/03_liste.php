@@ -37,11 +37,12 @@ uasort($vorratsorte, function($a, $b) {
   <meta charset="UTF-8">
   <title>Einkaufsliste</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/tokens.css">
   <style>
-    body { padding-top: 20px; padding-bottom: 40px; background: #0B0320 !important; color: #e3e3e3; font-family: 'Roboto', sans-serif; }
-    .material-symbols-outlined { font-size: 28px; vertical-align: middle; }
+    body { padding-top: 20px; padding-bottom: 40px; background: #0B0320 !important; color: #e3e3e3; font-family: var(--font-family-base); }
+    .material-symbols-outlined { font-size: var(--font-size-icon-md); vertical-align: middle; }
     .table, .table-striped, .table-striped>tbody>tr, .table-striped>tbody>tr td, .table-striped>tbody>tr th {
       background: transparent !important;
       color: #fff !important;
@@ -91,7 +92,7 @@ uasort($vorratsorte, function($a, $b) {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background: #4B15DA !important;
+      background: var(--color-primary) !important;
       border-radius: 12px;
       padding: 12px 18px;
       margin-bottom: 1rem;
@@ -125,12 +126,12 @@ uasort($vorratsorte, function($a, $b) {
     #erledigtContainer .table tr:last-child td { border-bottom: none !important; }
     .container { max-width: 100%; }
     @keyframes flash-green {
-      0%   { background-color: #23af64 !important; }
+      0%   { background-color: var(--color-accent-green) !important; }
       100% { background-color: transparent !important; }
     }
     .flash-animation {
       animation: flash-green 0.8s ease;
-      background-color: #23af64 !important;
+      background-color: var(--color-accent-green) !important;
       transition: background-color 0.8s;
     }
     .sticky-footer {
@@ -966,6 +967,6 @@ document.getElementById('np_vorratsort').addEventListener('change', (e) => {
       await ladeListe();
     })();
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -13,52 +13,14 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
   <link rel="manifest" href="assets/manifest.json">
 <meta name="theme-color" content="#4B15DA">
   <link rel="stylesheet" href="assets/tokens.css">
+  <link rel="stylesheet" href="assets/style.css">
 
-  <style>
-    body {
-      font-family: var(--font-family-base);
-      background-color: var(--color-bg);
-    }
-    .material-symbols-outlined {
-      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
-      font-size: var(--font-size-icon-lg);
-      color: var(--color-info);
-    }
-    .card-md {
-      transition: var(--transition-card);
-      border: none;
-      border-radius: var(--radius-md);
-      box-shadow: var(--shadow-card);
-    }
-    .card-md:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-card-hover);
-    }
-    .icon-gradient {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: var(--icon-circle-size); height: var(--icon-circle-size);
-  border-radius: var(--radius-circle);
- background: var(--color-primary);
-
-  /* Passe die Farben ggf. an den tatsächlichen SVG-Verlauf an */
-  box-shadow: var(--shadow-icon);
-  margin-right: var(--space-lg);
-  flex-shrink: 0;
-}
-.icon-gradient .material-symbols-outlined {
-  color: var(--color-accent);
-  font-size: 28px;
-}
-
-  </style>
 </head>
 <body>
   <div class="container py-5">
@@ -165,7 +127,7 @@
 
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>

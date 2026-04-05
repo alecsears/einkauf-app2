@@ -32,7 +32,7 @@
 .modal-details-table th, .modal-details-table td { border-bottom: 1px solid var(--color-table-border); padding: 0.48em 0.4em 0.48em 0.1em; font-size:1.06em; }
 .modal-details-table th { color: var(--color-text-secondary); background: var(--color-table-header-bg); font-weight: 600; }
 .modal-details-table tr:last-child th, .modal-details-table tr:last-child td { border-bottom: none; }
-.modal-section-title { font-weight: 600; font-size:1.12em; margin-top: 0.4em; margin-bottom:0.45em; color: #222; }
+.modal-section-title { font-weight: 600; font-size:1.12em; margin-top: 0.4em; margin-bottom:0.45em; color: var(--color-text-secondary); }
 .modal-meta { font-size: 1em; color: var(--color-text-muted); margin-bottom: 0.8em; }
 .modal-zubereitung { font-size: 1.06em; }
 .modal-zubereitung p { margin-bottom: 0.6em; }
@@ -84,7 +84,7 @@
   width: var(--dot-size);
   height: var(--dot-size);
   border-radius: var(--radius-circle);
-  background: #ccc;
+  background: var(--color-dot-inactive);
   display: inline-block;
 }
 .modal-dot.active {
@@ -101,7 +101,7 @@
   justify-content: center;
 }
 .loading-spinner {
-  border: 8px solid #eee;
+  border: 8px solid var(--color-spinner-track);
   border-top: 8px solid var(--color-primary);
   border-radius: var(--radius-circle);
   width: var(--spinner-size);

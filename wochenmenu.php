@@ -244,7 +244,7 @@ ladeProduktListe();
       <meta charset="UTF-8">
       <title>Wochenmenü</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
       <link href="assets/tokens.css" rel="stylesheet">
       <link href="/einkauf-app/assets/rezept-modal.css" rel="stylesheet">
@@ -307,7 +307,7 @@ ladeProduktListe();
       <!-- Modal -->
       <?php include 'assets/rezept-modal.html'; ?>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
       <script src="assets/rezept-modal.js"></script>
       <script>
         // Produktliste als Map: id -> name
@@ -442,7 +442,7 @@ usort($menu_files, function($a, $b) {
   <meta charset="UTF-8">
   <title>Wochenmenü Übersicht</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
   <link href="assets/tokens.css" rel="stylesheet">
   <link href="assets/style.css" rel="stylesheet">
