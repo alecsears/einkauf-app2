@@ -252,7 +252,7 @@ ladeProduktListe();
       <style>
         body { padding-top: 72px; background-color: var(--color-bg); font-family: var(--font-family-base); }
         .cluster-title { font-size: 1.18rem; font-weight: 600; margin: 1.6rem 0 1rem 0; color: var(--color-text-secondary); letter-spacing: 0.02em; display: flex; align-items: center; gap: 0.4em; }
-        .kachel { background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-kachel); margin-bottom: var(--space-lg); display: flex; align-items: center; padding: 0.9rem 1.1rem; min-height: 80px; transition: box-shadow 0.2s, border 0.2s, opacity .2s, filter .2s; cursor: pointer; border: 2px solid var(--color-border-subtle); }
+        .kachel { background: var(--color-surface); border-radius: var(--radius-md); box-shadow: var(--shadow-kachel); margin-bottom: var(--space-xl); display: flex; align-items: center; padding: 0.9rem 1.1rem; min-height: 80px; transition: box-shadow 0.2s, border 0.2s, opacity .2s, filter .2s; cursor: pointer; border: 2px solid var(--color-border-subtle); }
         .kachel:hover { box-shadow: var(--shadow-kachel-hover); border: 2px solid var(--color-accent-green); }
         .kachel-img { width: 62px; height: 62px; border-radius: 10px; background: #e9ecef; object-fit: cover; margin-right: 1.1rem; display: flex; align-items: center; justify-content: center; font-size: 44px; color: #bbb; }
         .kachel-img img { width: 62px; height: 62px; object-fit: cover; border-radius: 10px; }
@@ -449,14 +449,14 @@ usort($menu_files, function($a, $b) {
   <style>
     .menu-item-wrapper { display: flex; align-items: center; margin-bottom: 1.2rem; }
     .menu-kachel {
-      background: var(--color-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-kachel);
+      background: var(--color-surface); border-radius: var(--radius-md); box-shadow: var(--shadow-kachel);
       padding: 1.15rem 1.3rem; min-height: 80px; transition: box-shadow 0.2s, border 0.2s;
       cursor: pointer; border: 2px solid var(--color-border-subtle); font-size: 1.12rem; flex-grow: 1;
       text-decoration: none; color: var(--color-text-secondary);
     }
     .menu-kachel:hover { box-shadow: var(--shadow-kachel-hover); border: 2px solid var(--color-accent-green); background: var(--color-accent-green-bg); }
     .menu-kachel-datum { font-weight: 600; font-size: 1.18em; min-width: 120px; }
-    .menu-kachel-anzahl { margin-left: 1.2em; color: var(--color-text-secondary); border-radius: var(--radius-pill); font-weight: normal; padding: 0.18em 1.3em; font-size: 1em; }
+    .menu-kachel-anzahl { margin-left: 1.2em; color: var(--color-text-secondary); border-radius: var(--radius-circle); font-weight: normal; padding: 0.18em 1.3em; font-size: 1em; }
     .delete-btn { background: transparent; border: none; cursor: pointer; color: var(--color-danger); font-size: 1.4rem; margin-left: 0.5rem; }
     .delete-btn:hover { color: var(--color-danger-hover); }
   </style>
