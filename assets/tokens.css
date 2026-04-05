@@ -1,0 +1,77 @@
+/* Design Tokens — single source of truth */
+:root {
+  /* Brand / Primary */
+  --color-primary: #4B15DA;
+  --color-primary-light: #ede8fd;
+  --color-primary-border: #4B15DA33;
+  --color-primary-icon: #815BE5;
+
+  /* Accent / Success */
+  --color-accent: #23af64;
+  --color-accent-green: #4caf50;
+  --color-accent-green-bg: #f7fff6;
+  --color-info: #2196F3;
+
+  /* Neutrals */
+  --color-bg: #f5f5f5;
+  --color-surface: #ffffff;
+  --color-border: #ddd;
+  --color-border-subtle: #e0e0e0;
+  --color-text: #212529;
+  --color-text-secondary: #333;
+  --color-text-muted: #555;
+  --color-text-faint: #888;
+  --color-placeholder-bg: #e0e0e0;
+  --color-placeholder-text: #c0c0c0;
+  --color-table-header-bg: #f7f7f7;
+  --color-table-border: #e0e0e0;
+
+  /* Danger */
+  --color-danger: #d9534f;
+  --color-danger-hover: #b52b27;
+
+  /* Typography */
+  --font-family-base: 'Roboto', sans-serif;
+  --font-size-base: 1rem;
+  --font-size-sm: 0.97em;
+  --font-size-icon: 24px;
+  --font-size-icon-lg: 48px;
+  --font-size-icon-xl: 80px;
+
+  /* Spacing */
+  --space-xs: 0.3rem;
+  --space-sm: 0.5rem;
+  --space-md: 0.75rem;
+  --space-lg: 1rem;
+  --space-xl: 1.2rem;
+
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 13px;
+  --radius-xl: 16px;
+  --radius-circle: 50%;
+  --radius-pill: 1rem;
+
+  /* Shadows */
+  --shadow-card: 0 2px 6px rgba(0,0,0,0.15);
+  --shadow-card-hover: 0 6px 16px rgba(0,0,0,0.2);
+  --shadow-header: 0 2px 8px rgba(0,0,0,0.1);
+  --shadow-icon: 0 2px 8px rgba(40,40,40,0.12);
+  --shadow-kachel: 0 2px 6px rgba(0,0,0,0.08);
+  --shadow-kachel-hover: 0 4px 16px rgba(76,175,80,0.05);
+
+  /* Transitions */
+  --transition-card: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  --transition-border: border-color 0.2s, box-shadow 0.2s;
+
+  /* Z-index */
+  --z-header: 1040;
+  --z-loading: 9999;
+
+  /* Sizes */
+  --icon-circle-size: 64px;
+  --nav-btn-min: 44px;
+  --spinner-size: 48px;
+  --dot-size: 10px;
+}

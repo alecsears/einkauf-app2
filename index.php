@@ -69,12 +69,13 @@ if (empty($_SESSION['logged_in'])):
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="assets/tokens.css">
   <style>
-    body { font-family: 'Roboto', sans-serif; background-color: #f5f5f5; min-height: 100vh; display: flex; align-items: center; justify-content: center;}
-    .card-md { transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out; border: none; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); max-width: 400px; width: 100%;}
-    .card-md:hover { transform: translateY(-4px); box-shadow: 0 6px 16px rgba(0,0,0,0.2);}
-    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48; font-size: 48px; color: #2196F3; margin-bottom: 8px;}
-    .error { color: #c00; font-size: 1rem; margin-bottom: 1rem;}
+    body { font-family: var(--font-family-base); background-color: var(--color-bg); min-height: 100vh; display: flex; align-items: center; justify-content: center;}
+    .card-md { transition: var(--transition-card); border: none; border-radius: var(--radius-md); box-shadow: var(--shadow-card); max-width: 400px; width: 100%;}
+    .card-md:hover { transform: translateY(-4px); box-shadow: var(--shadow-card-hover);}
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48; font-size: var(--font-size-icon-lg); color: var(--color-info); margin-bottom: 8px;}
+    .error { color: #c00; font-size: var(--font-size-base); margin-bottom: var(--space-lg);}
     .password-toggle {
   position: absolute;
   top: 50%;
