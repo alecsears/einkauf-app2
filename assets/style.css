@@ -44,7 +44,7 @@ body {
   border-radius: var(--radius-circle);
  background: var(--color-primary);
    box-shadow: var(--shadow-icon);
-  margin-right: var(--space-lg);
+  margin-right: var(--space-xl);
   flex-shrink: 0;
 }
 
@@ -62,34 +62,29 @@ body {
 
 .btn-icon { padding: 0.375rem; line-height: 1; width: 38px; height: 38px; }
     .card-link { text-decoration: none; color: inherit; }
-    .card-link:hover .card { border-color: var(--color-primary); box-shadow: 0 0 0 2px var(--color-primary-border); }
+    .card-link:hover .card {
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 2px var(--color-primary-border);
+    }
     .card {
-      border-radius: var(--radius-xl);
+      border-radius: var(--radius-md);
       border: 2px solid var(--color-border);
-      min-height: 0;
       transition: var(--transition-border);
       cursor: pointer;
-      aspect-ratio: 1/1;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
-      justify-content: center;
-      padding: var(--space-xl) var(--space-xl) 0.7rem var(--space-xl);
+      padding: var(--space-xl) var(--space-xl);
       background: var(--color-surface);
-      min-width: 0;
-      min-height: 0;
-      /* fallback for older browsers */
       width: 100%;
-      height: auto;
-      position: relative;
       box-sizing: border-box;
+      gap: var(--space-xl);
+      min-height: 72px;
     }
     .logo-wrapper {
-      width: var(--logo-wrapper-size);
-      height: var(--logo-wrapper-size);
-      max-width: var(--logo-wrapper-max);
-      max-height: var(--logo-wrapper-max);
-      margin: 0 auto var(--logo-wrapper-margin-bottom) auto;
+      width: var(--icon-circle-size);
+      height: var(--icon-circle-size);
+      flex-shrink: 0;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -120,3 +115,36 @@ body {
   font-size: var(--font-size-icon-md);
 }
 
+/* Hover states */
+.sticky-header .btn:hover {
+  opacity: 0.85;
+}
+
+.icon-gradient:hover {
+  filter: brightness(1.1);
+}
+
+/* Loading overlay */
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(255,255,255,0.85);
+  z-index: var(--z-loading);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading-overlay.hidden {
+  display: none;
+}
+.loading-spinner {
+  width: var(--spinner-size);
+  height: var(--spinner-size);
+  border: 8px solid var(--color-spinner-track);
+  border-top-color: var(--color-primary);
+  border-radius: var(--radius-circle);
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

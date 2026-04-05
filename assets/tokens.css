@@ -33,25 +33,19 @@
   /* Typography */
   --font-family-base: 'Roboto', sans-serif;
   --font-size-base: 1rem;
-  --font-size-sm: 0.97em;
   --font-size-icon: 24px;
   --font-size-icon-lg: 48px;
   --font-size-icon-xl: 80px;
 
   /* Spacing */
   --space-xs: 0.3rem;
-  --space-sm: 0.5rem;
   --space-md: 0.75rem;
-  --space-lg: 1rem;
   --space-xl: 1.2rem;
 
   /* Border radius */
   --radius-sm: 8px;
   --radius-md: 12px;
-  --radius-lg: 13px;
-  --radius-xl: 16px;
   --radius-circle: 50%;
-  --radius-pill: 1rem;
 
   /* Shadows */
   --shadow-card: 0 2px 6px rgba(0,0,0,0.15);

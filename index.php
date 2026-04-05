@@ -75,7 +75,7 @@ if (empty($_SESSION['logged_in'])):
     .card-md { transition: var(--transition-card); border: none; border-radius: var(--radius-md); box-shadow: var(--shadow-card); max-width: 400px; width: 100%;}
     .card-md:hover { transform: translateY(-4px); box-shadow: var(--shadow-card-hover);}
     .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48; font-size: var(--font-size-icon-lg); color: var(--color-info); margin-bottom: 8px;}
-    .error { color: #c00; font-size: var(--font-size-base); margin-bottom: var(--space-lg);}
+    .error { color: #c00; font-size: var(--font-size-base); margin-bottom: var(--space-xl);}
     .password-toggle {
   position: absolute;
   top: 50%;
