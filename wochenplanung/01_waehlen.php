@@ -121,6 +121,9 @@ if (file_exists($statsFile)) {
     .zufall-kachel.action-btn:hover .material-symbols-outlined,
     .zufall-kachel.action-btn:focus .material-symbols-outlined {
       color: var(--color-primary-icon) !important;
+    }
+
+    .rezept-titel {
       color: green;
       font-weight: bold;
     }

@@ -111,8 +111,8 @@
       position: absolute;
       background-color: var(--color-surface);
       width: calc(100% - 2rem);
+      z-index: 1055;
       display: none;
-      max-height: 40vh;
       overflow-y: auto;
       border-radius: 0 0 0.5rem 0.5rem;
       box-shadow: 0 8px 16px rgba(0,0,0,0.12);
