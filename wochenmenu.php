@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
 // --- HILFSFUNKTIONEN ---
 function menu_datum_kw($filename, $fallbackTimestamp = null) {
@@ -226,7 +223,7 @@ window.produktListe = {};
 async function ladeProduktListe() {
   console.log("ladeProduktListe wurde aufgerufen");
   try {
-    const res = await fetch('/einkauf-app/produkte/produktliste.json?ts=' + Date.now());
+    const res = await fetch('produkte/produktliste.json?ts=' + Date.now());
     if (res.ok) {
       console.log("Produktliste wurde geladen");
       const obj = await res.json();
@@ -503,6 +500,6 @@ usort($menu_files, function($a, $b) {
     <?php endif; ?>
   </div>
 
-  <script src="/einkauf-app/assets/rezept-modal.js"></script>
+  <script src="assets/rezept-modal.js"></script>
 </body>
 </html>

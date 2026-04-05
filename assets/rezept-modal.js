@@ -4,7 +4,7 @@ window.einheitenMap = {};
 async function ladeEinheitenMap() {
   if (Object.keys(window.einheitenMap).length > 0) return window.einheitenMap;
   try {
-    const res = await fetch('/einkauf-app/produkte/einheiten.json');
+    const res = await fetch('produkte/einheiten.json');
     if (res.ok) {
       const data = await res.json();
       if (data.Produkteinheiten) window.einheitenMap = data.Produkteinheiten;
@@ -96,7 +96,7 @@ async function showPreviewModal(slug, bild) {
     await ladeEinheitenMap();
   }
   try {
-    const res = await fetch(`/einkauf-app/rezeptkasten/rezepte/${slug}.json?ts=${Date.now()}`);
+    const res = await fetch(`rezeptkasten/rezepte/${slug}.json?ts=${Date.now()}`);
     if (!res.ok) throw new Error("Rezeptdaten konnten nicht geladen werden!");
     const details = await res.json();
 

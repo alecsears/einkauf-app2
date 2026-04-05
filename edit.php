@@ -74,32 +74,6 @@
           </div>
         </a>
       </div>
-      <!-- Einheiten -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <a href="maerkte/marktuebersicht.php" class="text-decoration-none">
-          <div class="card card-md p-4 bg-white">
-            <div class="d-flex align-items-center">
-              <span class="icon-gradient">
-                <span class="material-symbols-outlined">straighten</span>
-              </span>
-              <div>
-                <h5 class="text-dark mb-1">Einheiten</h5>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <!--
-      <div class="col-12 col-md-6 col-lg-4">
-        <a href="produkte/zuordnung_editor.php" class="text-decoration-none">
-          <div class="card card-md text-center p-4 bg-white">
-            <span class="material-symbols-outlined">category</span>
-            <h5 class="text-dark mt-2">Inhalte bearbeiten</h5>
-            <p class="text-muted">Produkte und Zuordnungen bearbeiten</p>
-          </div>
-        </a>
-      </div>
-      -->
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
