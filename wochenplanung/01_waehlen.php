@@ -20,32 +20,33 @@ if (file_exists($statsFile)) {
   <meta charset="UTF-8">
   <title>Rezeptauswahl</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/tokens.css">
   <link href="/einkauf-app/assets/rezept-modal.css" rel="stylesheet">
   <style>
-    body { padding-top: 120px; padding-bottom: 120px;background-color: #f5f5f5; font-family: 'Roboto', sans-serif; }
-    .sticky-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; background-color: #fff; border-bottom: 1px solid #ddd; padding: 0px 0px 0px 0px; }
-    .card-img-top-wrapper {  border-radius: 10px;position: relative; height: 100px; width: 100px; cursor: pointer; border-radius: 10px; background: #4B15DA; display: flex; align-items: center; justify-content: center; transition: box-shadow 0.2s; }
+    body { padding-top: 120px; padding-bottom: 120px;background-color: var(--color-bg); font-family: var(--font-family-base); }
+    .sticky-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; background-color: var(--color-surface); border-bottom: 1px solid var(--color-border); padding: 0px 0px 0px 0px; }
+    .card-img-top-wrapper {  border-radius: 10px;position: relative; height: 100px; width: 100px; cursor: pointer; border-radius: 10px; background: var(--color-primary); display: flex; align-items: center; justify-content: center; transition: box-shadow 0.2s; }
     .card-img-top {  border-radius: 10px;width: 100%; height: 100%; object-fit: cover; display: block; transition: filter 0.2s; }
     .material-symbols-outlined { font-size: 24px; vertical-align: middle; }
     .btn-icon { padding: 0.375rem; line-height: 1; width: 38px; height: 38px; }
-    .buchstabe { font-weight: bold; font-size: 1.5rem; margin-top: 3rem; border-bottom: 1px solid #ccc; }
-    .card {  border-radius: 16px; min-height: auto; transition: border-color 0.2s, box-shadow 0.2s; border: 2px solid #ddd; }
-    .selected-card { border: 1px solid #4B15DA !important; background: #EDE7FB !important; box-shadow: 0 0 0 3px #4B15DA !important; }
+    .buchstabe { font-weight: bold; font-size: 1.5rem; margin-top: 3rem; border-bottom: 1px solid var(--color-dot-inactive); }
+    .card {  border-radius: 16px; min-height: auto; transition: border-color 0.2s, box-shadow 0.2s; border: 2px solid var(--color-border); }
+    .selected-card { border: 1px solid var(--color-primary) !important; background: var(--color-primary-light) !important; box-shadow: 0 0 0 3px var(--color-primary) !important; }
     .card-title, .card h5 { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; display: block; margin-bottom: 0; }
     .kachel-title-container { min-width: 0; flex: 1 1 0%; margin-right: 1rem; display: flex; align-items: center; }
     .kachel-btn-stack { display: flex; flex-direction: column; align-items: flex-end; justify-content: center; gap: 0.3rem; height: 100%; min-width: 38px; }
     .kachel-content { display: flex; align-items: center; width: 100%; min-width: 0; justify-content: space-between; }
-    .vegan-icon { position: absolute; top: 8px; left: 8px; background-color: #23af64cc; border-radius: 50%; padding: 2px; font-size:25px; color: #fff; z-index: 3; }
+    .vegan-icon { position: absolute; top: 8px; left: 8px; background-color: #23af64cc; border-radius: 50%; padding: 2px; font-size:25px; color: var(--color-surface); z-index: 3; }
     .auswahl-liste { display: flex; flex-wrap: wrap; gap: 0.2rem; margin-bottom: 0.5rem; margin-top: 0.5rem; }
-    .auswahl-badge { background: #4B15DA; color: #fff; border-radius: 1rem; padding: 0.3em 0.3em; font-size: 1rem; display: inline-flex; align-items: center; gap: 0.2em; }
-    .details-label { font-weight: 500; color: #888; }
+    .auswahl-badge { background: var(--color-primary); color: var(--color-surface); border-radius: 1rem; padding: 0.3em 0.3em; font-size: 1rem; display: inline-flex; align-items: center; gap: 0.2em; }
+    .details-label { font-weight: 500; color: var(--color-text-faint); }
     .details-value { }
-    .sticky-footer { position: fixed; bottom: 0; left: 0; right: 0; background: #fff; border-top: 1px solid #ddd; padding: 0.75rem 1.5rem; box-shadow: 0 -2px 8px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: space-between; z-index: 1040; }
-    .footer-btn { font-size: 1.13rem; font-weight: 500; padding: 0.55em 1.7em; border-radius: 12px; letter-spacing: 0.02em; display: flex; align-items: center; background: #23af64; color: #fff; border: none; box-shadow: 0 2px 8px #23af641a; transition: background 0.16s; text-decoration: none; }
+    .sticky-footer { position: fixed; bottom: 0; left: 0; right: 0; background: var(--color-surface); border-top: 1px solid var(--color-border); padding: 0.75rem 1.5rem; box-shadow: 0 -2px 8px rgba(0,0,0,0.04); display: flex; align-items: center; justify-content: space-between; z-index: 1040; }
+    .footer-btn { font-size: 1.13rem; font-weight: 500; padding: 0.55em 1.7em; border-radius: 12px; letter-spacing: 0.02em; display: flex; align-items: center; background: var(--color-accent); color: var(--color-surface); border: none; box-shadow: 0 2px 8px #23af641a; transition: background 0.16s; text-decoration: none; }
     .footer-btn:hover { background: #1c8951; color: #fff; text-decoration: none; }
-    .footer-reset-btn { font-size: 1.13rem; font-weight: 500; padding: 0.55em 1.7em; border-radius: 12px; letter-spacing: 0.02em; display: flex; align-items: center; background: #fff; color: #23af64; border: 2px solid #23af64; box-shadow: 0 2px 8px #23af641a; transition: background 0.16s; text-decoration: none; }
+    .footer-reset-btn { font-size: 1.13rem; font-weight: 500; padding: 0.55em 1.7em; border-radius: 12px; letter-spacing: 0.02em; display: flex; align-items: center; background: var(--color-surface); color: var(--color-accent); border: 2px solid var(--color-accent); box-shadow: 0 2px 8px #23af641a; transition: background 0.16s; text-decoration: none; }
     .footer-reset-btn:hover { background: #e8f6ea; color: #1c8951; border-color: #1c8951; text-decoration: none; }
     .card-img-top-wrapper .material-symbols-outlined {
       user-select: none;
@@ -65,7 +66,7 @@ if (file_exists($statsFile)) {
       padding: 0.2em 1em;
       width: fit-content;
       box-shadow: 0 2px 10px #815be50a;
-      color: #4B15DA !important;
+      color: var(--color-primary) !important;
       text-decoration: none !important;
       font-weight: 500;
       font-size: 1.13rem;
@@ -74,13 +75,13 @@ if (file_exists($statsFile)) {
       cursor: pointer;
     }
     .zufall-kachel.filter-btn .material-symbols-outlined {
-      color: #4B15DA;
+      color: var(--color-primary);
       transition: color 0.2s;
     }
     .zufall-kachel.filter-btn.active {
-      background: #815BE5 !important;
-      color: #fff !important;
-      border-color: #4B15DA !important;
+      background: var(--color-primary-icon) !important;
+      color: var(--color-surface) !important;
+      border-color: var(--color-primary) !important;
     }
     .zufall-kachel.filter-btn.active .material-symbols-outlined {
       color: #fff !important;
@@ -98,7 +99,7 @@ if (file_exists($statsFile)) {
       padding: 0.2em 1em;
       width: fit-content;
       box-shadow: 0 2px 10px #815be50a;
-      color: #4B15DA !important;
+      color: var(--color-primary) !important;
       text-decoration: none !important;
       font-weight: 500;
       font-size: 1.13rem;
@@ -107,22 +108,19 @@ if (file_exists($statsFile)) {
       cursor: pointer;
     }
     .zufall-kachel.action-btn .material-symbols-outlined {
-      color: #4B15DA;
+      color: var(--color-primary);
       transition: color 0.2s;
     }
     .zufall-kachel.action-btn:hover,
     .zufall-kachel.action-btn:focus {
-      background: #EDE7FB !important;
-      color: #815BE5 !important;
-      border-color: #4B15DA !important;
+      background: var(--color-primary-light) !important;
+      color: var(--color-primary-icon) !important;
+      border-color: var(--color-primary) !important;
       text-decoration: none !important;
     }
     .zufall-kachel.action-btn:hover .material-symbols-outlined,
     .zufall-kachel.action-btn:focus .material-symbols-outlined {
-      color: #815BE5 !important;
-    }
-
-    .rezept-titel {
+      color: var(--color-primary-icon) !important;
       color: green;
       font-weight: bold;
     }
@@ -192,7 +190,7 @@ if (file_exists($statsFile)) {
   </a>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../assets/rezept-modal.js"></script>
 <script>
   // Rezeptauswahl NUR im LocalStorage zwischenspeichern!

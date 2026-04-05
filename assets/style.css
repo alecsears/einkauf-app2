@@ -1,5 +1,5 @@
 body {
-  padding-top: 72px;
+  padding-top: var(--padding-body-top);
   background-color: var(--color-bg);
   font-family: var(--font-family-base);
 }
@@ -27,7 +27,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 5px; /* horizontaler Abstand */
+  padding: 0 var(--space-xs); /* horizontaler Abstand */
 }
 
     .material-symbols-outlined-start {
@@ -85,11 +85,11 @@ body {
       box-sizing: border-box;
     }
     .logo-wrapper {
-      width: 70%;
-      height: 70%;
-      max-width: 110px;
-      max-height: 110px;
-      margin: 0 auto 12px auto;
+      width: var(--logo-wrapper-size);
+      height: var(--logo-wrapper-size);
+      max-width: var(--logo-wrapper-max);
+      max-height: var(--logo-wrapper-max);
+      margin: 0 auto var(--logo-wrapper-margin-bottom) auto;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -111,12 +111,12 @@ body {
       display: block;
       margin-bottom: 0;
       text-align: center;
-      font-size: 1.11rem;
+      font-size: var(--font-size-card-title);
     }
     
 
 .icon-gradient .material-symbols-outlined {
   color: var(--color-accent);
-  font-size: 28px;
+  font-size: var(--font-size-icon-md);
 }
 

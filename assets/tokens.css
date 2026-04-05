@@ -74,4 +74,25 @@
   --nav-btn-min: 44px;
   --spinner-size: 48px;
   --dot-size: 10px;
+
+  /* Body layout */
+  --padding-body-top: 72px;
+
+  /* Card title */
+  --font-size-card-title: 1.11rem;
+
+  /* Icon sizes (additional) */
+  --font-size-icon-md: 28px;
+  --font-size-icon-22: 22px;
+
+  /* Spinner track */
+  --color-spinner-track: #eee;
+
+  /* Dot inactive */
+  --color-dot-inactive: #ccc;
+
+  /* Logo wrapper */
+  --logo-wrapper-size: 70%;
+  --logo-wrapper-max: 110px;
+  --logo-wrapper-margin-bottom: 12px;
 }
