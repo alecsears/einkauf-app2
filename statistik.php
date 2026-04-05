@@ -33,13 +33,14 @@ $anzahl_menues = max(1, (int)($stats['anzahl_menues'] ?? 0)); // Verhindert Divi
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="assets/tokens.css">
        <link href="assets/style.css" rel="stylesheet">
     <style>
-        body { padding-top: 80px; background-color: #f5f5f5; font-family: 'Roboto', sans-serif; }
-        .material-symbols-outlined { font-size: 24px; vertical-align: middle; }
-        .dashboard-kpi { background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); padding: 1.6em 1.2em; margin-bottom: 1.2em; display: flex; align-items: center; gap: 1.1em; }
-        .dashboard-kpi .material-symbols-outlined { font-size: 38px; color: #4caf50;}
-        .dashboard-kpi .kpi-label { color: #888; font-size: 1.1em; font-weight: 500;}
+        body { padding-top: 80px; background-color: var(--color-bg); font-family: var(--font-family-base); }
+        .material-symbols-outlined { font-size: var(--font-size-icon); vertical-align: middle; }
+        .dashboard-kpi { background: var(--color-surface); border-radius: var(--radius-md); box-shadow: 0 2px 8px rgba(0,0,0,0.07); padding: 1.6em 1.2em; margin-bottom: 1.2em; display: flex; align-items: center; gap: 1.1em; }
+        .dashboard-kpi .material-symbols-outlined { font-size: 38px; color: var(--color-accent-green);}
+        .dashboard-kpi .kpi-label { color: var(--color-text-faint); font-size: 1.1em; font-weight: 500;}
         .dashboard-kpi .kpi-value { font-size: 2.2em; font-weight: bold; margin-bottom: .1em;}
         .top-rezepte-table th, .top-rezepte-table td { vertical-align: middle; }
         .top-rezepte-table th { font-size: 1.1em; }

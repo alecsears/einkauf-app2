@@ -18,42 +18,43 @@
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
   <link rel="manifest" href="assets/manifest.json">
 <meta name="theme-color" content="#4B15DA">
+  <link rel="stylesheet" href="assets/tokens.css">
 
   <style>
     body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #f5f5f5;
+      font-family: var(--font-family-base);
+      background-color: var(--color-bg);
     }
     .material-symbols-outlined {
       font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
-      font-size: 48px;
-      color: #2196F3;
+      font-size: var(--font-size-icon-lg);
+      color: var(--color-info);
     }
     .card-md {
-      transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+      transition: var(--transition-card);
       border: none;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-card);
     }
     .card-md:hover {
       transform: translateY(-4px);
-      box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+      box-shadow: var(--shadow-card-hover);
     }
     .icon-gradient {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px; height: 64px;
-  border-radius: 50%;
- background: #4B15DA;
+  width: var(--icon-circle-size); height: var(--icon-circle-size);
+  border-radius: var(--radius-circle);
+ background: var(--color-primary);
 
   /* Passe die Farben ggf. an den tatsächlichen SVG-Verlauf an */
-  box-shadow: 0 2px 8px rgba(40,40,40,0.12);
-  margin-right: 1rem;
+  box-shadow: var(--shadow-icon);
+  margin-right: var(--space-lg);
   flex-shrink: 0;
 }
 .icon-gradient .material-symbols-outlined {
-  color: #23af64;
+  color: var(--color-accent);
   font-size: 28px;
 }
 
@@ -140,6 +141,22 @@
                 </span>
               <div>
                 <h5 class="text-dark mb-1">Statistiken</h5>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Design System -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="design-system.php" class="text-decoration-none">
+          <div class="card card-md p-4 bg-white">
+            <div class="d-flex align-items-center">
+              <span class="icon-gradient">
+                <span class="material-symbols-outlined">palette</span>
+              </span>
+              <div>
+                <h5 class="text-dark mb-1">Design System</h5>
               </div>
             </div>
           </div>
