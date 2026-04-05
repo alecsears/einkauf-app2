@@ -1,0 +1,36 @@
+{
+  "name": "Backofenpommes",
+  "zutaten": [
+    {
+      "id": 459,
+      "rezeptmenge": 1200,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 290,
+      "rezeptmenge": 0.5,
+      "rezepteinheit": "Fl"
+    },
+    {
+      "id": 458,
+      "rezeptmenge": 0.5,
+      "rezepteinheit": "Fl"
+    },
+    {
+      "id": 566,
+      "rezeptmenge": 1,
+      "rezepteinheit": "TL"
+    },
+    {
+      "id": 662,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    }
+  ],
+  "zubereitung": "B Vorbereitung:\r\n• Kartoffeln je nach Rezept schälen/waschen und schneiden.\r\n• Ofen vorheizen oder Pfanne/Topf bereitstellen.\r\n\r\nB Zubereitung:\r\n1. Kartoffeln garen: kochen, braten oder im Ofen rösten – bis sie weich und/oder knusprig sind.\r\n2. Würzen und ggf. mit Sauce/Belag kombinieren.\r\n\r\nB Servieren:\r\n• Heiß servieren; I Tipp: Für extra Knusper eine große, vorgeheizte Backform verwenden.\r\n",
+  "vegetarisch": "ja",
+  "hauptgericht": "ja",
+  "kalorien": 0,
+  "frequenz": 0,
+  "rezept-id": 5
+}

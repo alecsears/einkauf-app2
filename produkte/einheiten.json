@@ -1,0 +1,115 @@
+{
+  "Produkteinheiten": {
+    "g": {
+      "label": "g",
+      "translation": 1
+    },
+    "ml": {
+      "label": "ml",
+      "translation": 1
+    },
+     "sta": {
+      "label": "Stange",
+      "translation": 1
+    },
+    "st": {
+      "label": "Stück",
+      "translation": 1
+    },
+    "Pris": {
+      "label": "Priese",
+      "translation": 2
+    },
+    "TL": {
+      "label": "Teelöffel",
+      "translation": 5
+    },
+      "Ze": {
+      "label": "Zehe",
+      "translation": 5
+    },
+    "EL": {
+      "label": "Esslöffel",
+      "translation": 15
+    },
+    "Bnd": {
+      "label": "Bund",
+      "translation": 30
+    },
+    
+       "Beu": {
+      "label": "Beutel",
+      "translation": 50
+    },
+       "Tig": {
+      "label": "Tiegel",
+      "translation": 75
+    },
+    "Rol": {
+      "label": "Rolle",
+      "translation": 100
+    },
+    "Tub": {
+      "label": "Tube",
+      "translation": 120
+    },
+    "Bech": {
+      "label": "Becher",
+      "translation": 200
+    },
+        "Pä": {
+      "label": "Päckchen",
+      "translation": 200
+    },
+    "Gls": {
+      "label": "Glas",
+      "translation": 300
+    },
+        "Dose(n)": {
+      "label": "Dose(n)",
+      "translation": 400
+    },
+    "Pkg": {
+      "label": "Packung",
+      "translation": 500
+    },
+    "Tüt": {
+      "label": "Tüte",
+      "translation": 700
+    },
+    "kg": {
+      "label": "kg",
+      "translation": 1000
+    },
+    "l": {
+      "label": "Liter",
+      "translation": 1000
+    },
+    "TP": {
+      "label": "Tetra-Pak",
+      "translation": 1000
+    },
+    "Fl": {
+      "label": "Flasche",
+      "translation": 1000
+    },
+    "Scha": {
+      "label": "Schale",
+      "translation": 300
+    },
+ 
+    "Kar": {
+      "label": "Karton",
+      "translation": 400
+    },
+    
+    "Sack": {
+      "label": "Sack",
+      "translation": 2000
+    }
+  },
+
+  "Markteinheiten": [1, 2, 5, 10,30,50,75,100,120,150,200,300,350,400,500,750,1000,2000]
+
+  
+}

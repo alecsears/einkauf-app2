@@ -1,0 +1,30 @@
+[
+    {
+        "slug": "wei_kohlpfanne",
+        "gegessen": "nein"
+    },
+    {
+        "slug": "macaroni_mit_ricotta",
+        "gegessen": "ja"
+    },
+    {
+        "slug": "irish_stew",
+        "gegessen": "nein"
+    },
+    {
+        "slug": "gr_nkohl_mit_wurst",
+        "gegessen": "nein"
+    },
+    {
+        "slug": "thunfischcreme",
+        "gegessen": "nein"
+    },
+    {
+        "slug": "quiche_lorraine",
+        "gegessen": "nein"
+    },
+    {
+        "slug": "butter-chicken",
+        "gegessen": "nein"
+    }
+]

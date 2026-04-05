@@ -1,0 +1,123 @@
+{
+    "rezepte": {
+        "Hackfleischschiffchen": {
+            "anzahl": 3
+        },
+        "Hackbällchen mit Senfsoße": {
+            "anzahl": 3
+        },
+        "Maultaschen": {
+            "anzahl": 3
+        },
+        "Spaghetti Bolognese": {
+            "anzahl": 4
+        },
+        "Paprika-Reis-Gericht": {
+            "anzahl": 3
+        },
+        "Linsen mit Spätzle": {
+            "anzahl": 4
+        },
+        "Kräuterquark": {
+            "anzahl": 3
+        },
+        "Würstchengulasch": {
+            "anzahl": 3
+        },
+        "Kartoffelgratin einfach": {
+            "anzahl": 2
+        },
+        "Gulasch": {
+            "anzahl": 2
+        },
+        "Hot dogs": {
+            "anzahl": 3
+        },
+        "Macaroni & Cheese": {
+            "anzahl": 2
+        },
+        "Tomatensuppe": {
+            "anzahl": 2
+        },
+        "Poke Bowl": {
+            "anzahl": 2
+        },
+        "Gnocchi Spinat Auflauf": {
+            "anzahl": 3
+        },
+        "Hamburger": {
+            "anzahl": 3
+        },
+        "Nudelauflauf a la Mama": {
+            "anzahl": 2
+        },
+        "Butter Chicken": {
+            "anzahl": 2
+        },
+        "Sommerrollen": {
+            "anzahl": 1
+        },
+        "Blumenkohlsuppe": {
+            "anzahl": 1
+        },
+        "Quiche Lorraine": {
+            "anzahl": 2
+        },
+        "Enchiladas": {
+            "anzahl": 1
+        },
+        "Sandwich Toast": {
+            "anzahl": 1
+        },
+        "Bud Spencer Bohnenpfanne": {
+            "anzahl": 1
+        },
+        "Curry Gericht": {
+            "anzahl": 1
+        },
+        "Belgische Waffeln": {
+            "anzahl": 1
+        },
+        "Hackfleisch Tortellini": {
+            "anzahl": 1
+        },
+        "Gemüsebratlinge": {
+            "anzahl": 1
+        },
+        "Käsespätzle": {
+            "anzahl": 1
+        },
+        "Pulled Pork": {
+            "anzahl": 1
+        },
+        "Spaghetti Carbonara": {
+            "anzahl": 1
+        },
+        "Risotto": {
+            "anzahl": 1
+        },
+        "Ragout fin": {
+            "anzahl": 1
+        },
+        "Bratkartoffeln mit Bratwurst": {
+            "anzahl": 1
+        },
+        "Weißkohlpfanne": {
+            "anzahl": 2
+        },
+        "Macaroni mit Ricotta": {
+            "anzahl": 2
+        },
+        "Irish Stew": {
+            "anzahl": 1
+        },
+        "Grünkohl mit Wurst": {
+            "anzahl": 1
+        },
+        "Thunfischcreme": {
+            "anzahl": 1
+        }
+    },
+    "gesamt_anzahl": 116,
+    "anzahl_menues": 73
+}

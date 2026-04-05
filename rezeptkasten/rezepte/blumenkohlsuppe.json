@@ -1,0 +1,60 @@
+{
+  "name": "Blumenkohlsuppe",
+  "zutaten": [
+    {
+      "id": 56,
+      "rezeptmenge": 400,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 186,
+      "rezeptmenge": 150,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 334,
+      "rezeptmenge": 3,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 221,
+      "rezeptmenge": 2,
+      "rezepteinheit": "TL"
+    },
+    {
+      "id": 36,
+      "rezeptmenge": 1,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 873,
+      "rezeptmenge": 1,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 360,
+      "rezeptmenge": 1,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 662,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    },
+    {
+      "id": 550,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    },
+    {
+      "id": 497,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    }
+  ],
+  "zubereitung": "1. So\r\n2. So\r\n3. o",
+  "vegetarisch": "ja",
+  "kalorien": 0,
+  "frequenz": 0,
+  "rezept-id": 8
+}

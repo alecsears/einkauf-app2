@@ -1,0 +1,233 @@
+{
+    "name": "Aldi Eisenbach",
+    "abteilungen": [
+        {
+            "name": "Gemüse",
+            "order": 1
+        },
+        {
+            "name": "Obst",
+            "order": 2
+        },
+        {
+            "name": "Nüsse",
+            "order": 3
+        },
+        {
+            "name": "Frisches Fleisch",
+            "order": 4
+        },
+        {
+            "name": "Internationale Feinkost",
+            "order": 5
+        },
+        {
+            "name": "Fixprodukte",
+            "order": 6
+        },
+        {
+            "name": "Fertig im Kühlregal",
+            "order": 7
+        },
+        {
+            "name": "Antipasti",
+            "order": 8
+        },
+        {
+            "name": "Würzsaucen",
+            "order": 9
+        },
+        {
+            "name": "Nudeln",
+            "order": 10
+        },
+        {
+            "name": "Gewürze",
+            "order": 11
+        },
+        {
+            "name": "Eier",
+            "order": 12
+        },
+        {
+            "name": "Mehl & Zucker",
+            "order": 13
+        },
+        {
+            "name": "Fischkonserven",
+            "order": 14
+        },
+        {
+            "name": "Obstkonserven",
+            "order": 15
+        },
+        {
+            "name": "Sauerkonserven",
+            "order": 16
+        },
+        {
+            "name": "Gemüsekonserven",
+            "order": 17
+        },
+        {
+            "name": "Backzutaten",
+            "order": 18
+        },
+        {
+            "name": "Salz",
+            "order": 19
+        },
+        {
+            "name": "Essig & Öl",
+            "order": 20
+        },
+        {
+            "name": "Reis",
+            "order": 21
+        },
+        {
+            "name": "Kartoffelprodukte",
+            "order": 22
+        },
+        {
+            "name": "Wurstkonserven",
+            "order": 23
+        },
+        {
+            "name": "Pastasaucen",
+            "order": 24
+        },
+        {
+            "name": "Bier",
+            "order": 25
+        },
+        {
+            "name": "Chips",
+            "order": 26
+        },
+        {
+            "name": "Weine & Spirituosen",
+            "order": 27
+        },
+        {
+            "name": "Kekse",
+            "order": 28
+        },
+        {
+            "name": "Tee & Kaffee",
+            "order": 29
+        },
+        {
+            "name": "Getränke",
+            "order": 30
+        },
+        {
+            "name": "Schokolade",
+            "order": 31
+        },
+        {
+            "name": "Säfte",
+            "order": 32
+        },
+        {
+            "name": "Fruchtgummi",
+            "order": 33
+        },
+        {
+            "name": "Hygiene & Kosmetik",
+            "order": 34
+        },
+        {
+            "name": "Küchenrollen & Tüten",
+            "order": 35
+        },
+        {
+            "name": "Waschen und reinigen",
+            "order": 36
+        },
+        {
+            "name": "KFZ",
+            "order": 37
+        },
+        {
+            "name": "Schreibwaren",
+            "order": 38
+        },
+        {
+            "name": "Haushaltswaren",
+            "order": 39
+        },
+        {
+            "name": "Elektro",
+            "order": 40
+        },
+        {
+            "name": "Tiernahrung",
+            "order": 41
+        },
+        {
+            "name": "Brot",
+            "order": 42
+        },
+        {
+            "name": "Butter & Margarine",
+            "order": 43
+        },
+        {
+            "name": "Haltbare Milchprodukte",
+            "order": 44
+        },
+        {
+            "name": "Joghurt",
+            "order": 45
+        },
+        {
+            "name": "Käse",
+            "order": 46
+        },
+        {
+            "name": "Frühstück",
+            "order": 47
+        },
+        {
+            "name": "Knäckebrot",
+            "order": 48
+        },
+        {
+            "name": "Wurst im Kühlregal",
+            "order": 49
+        },
+        {
+            "name": "Fisch im Kühlregal",
+            "order": 50
+        },
+        {
+            "name": "TK-Brot & Kuchen",
+            "order": 51
+        },
+        {
+            "name": "TK-Kartoffelprodukte",
+            "order": 52
+        },
+        {
+            "name": "TK-Fisch",
+            "order": 53
+        },
+        {
+            "name": "TK-Gemüse",
+            "order": 54
+        },
+        {
+            "name": "Eis",
+            "order": 55
+        },
+        {
+            "name": "Quengelware",
+            "order": 56
+        },
+        {
+            "name": "Sonstiges",
+            "order": 57
+        }
+    ]
+}

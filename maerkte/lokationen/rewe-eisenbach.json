@@ -1,0 +1,233 @@
+{
+    "name": "Rewe Eisenbach",
+    "abteilungen": [
+        {
+            "name": "Gemüse",
+            "order": 1
+        },
+        {
+            "name": "Obst",
+            "order": 2
+        },
+        {
+            "name": "Fertig im Kühlregal",
+            "order": 3
+        },
+        {
+            "name": "Eier",
+            "order": 4
+        },
+        {
+            "name": "Wurst im Kühlregal",
+            "order": 5
+        },
+        {
+            "name": "Brot",
+            "order": 6
+        },
+        {
+            "name": "Knäckebrot",
+            "order": 7
+        },
+        {
+            "name": "Nüsse",
+            "order": 8
+        },
+        {
+            "name": "Frühstück",
+            "order": 9
+        },
+        {
+            "name": "Frisches Fleisch",
+            "order": 10
+        },
+        {
+            "name": "Joghurt",
+            "order": 11
+        },
+        {
+            "name": "Butter & Margarine",
+            "order": 12
+        },
+        {
+            "name": "Käse",
+            "order": 13
+        },
+        {
+            "name": "Tee & Kaffee",
+            "order": 14
+        },
+        {
+            "name": "Kartoffelprodukte",
+            "order": 15
+        },
+        {
+            "name": "Reis",
+            "order": 16
+        },
+        {
+            "name": "Nudeln",
+            "order": 17
+        },
+        {
+            "name": "Pastasaucen",
+            "order": 18
+        },
+        {
+            "name": "Fixprodukte",
+            "order": 19
+        },
+        {
+            "name": "Haltbare Milchprodukte",
+            "order": 20
+        },
+        {
+            "name": "Wurstkonserven",
+            "order": 21
+        },
+        {
+            "name": "Backzutaten",
+            "order": 22
+        },
+        {
+            "name": "Mehl & Zucker",
+            "order": 23
+        },
+        {
+            "name": "Salz",
+            "order": 24
+        },
+        {
+            "name": "Internationale Feinkost",
+            "order": 25
+        },
+        {
+            "name": "Schokolade",
+            "order": 26
+        },
+        {
+            "name": "Fruchtgummi",
+            "order": 27
+        },
+        {
+            "name": "Würzsaucen",
+            "order": 28
+        },
+        {
+            "name": "Gemüsekonserven",
+            "order": 29
+        },
+        {
+            "name": "Obstkonserven",
+            "order": 30
+        },
+        {
+            "name": "Sauerkonserven",
+            "order": 31
+        },
+        {
+            "name": "Gewürze",
+            "order": 32
+        },
+        {
+            "name": "Hygiene & Kosmetik",
+            "order": 33
+        },
+        {
+            "name": "Waschen und reinigen",
+            "order": 34
+        },
+        {
+            "name": "Haushaltswaren",
+            "order": 35
+        },
+        {
+            "name": "Tiernahrung",
+            "order": 36
+        },
+        {
+            "name": "Küchenrollen & Tüten",
+            "order": 37
+        },
+        {
+            "name": "Eis",
+            "order": 38
+        },
+        {
+            "name": "KFZ",
+            "order": 39
+        },
+        {
+            "name": "Kekse",
+            "order": 40
+        },
+        {
+            "name": "Chips",
+            "order": 41
+        },
+        {
+            "name": "Fisch im Kühlregal",
+            "order": 42
+        },
+        {
+            "name": "TK-Brot & Kuchen",
+            "order": 43
+        },
+        {
+            "name": "TK-Fisch",
+            "order": 44
+        },
+        {
+            "name": "TK-Gemüse",
+            "order": 45
+        },
+        {
+            "name": "TK-Kartoffelprodukte",
+            "order": 46
+        },
+        {
+            "name": "Bier",
+            "order": 47
+        },
+        {
+            "name": "Weine & Spirituosen",
+            "order": 48
+        },
+        {
+            "name": "Getränke",
+            "order": 49
+        },
+        {
+            "name": "Säfte",
+            "order": 50
+        },
+        {
+            "name": "Antipasti",
+            "order": 51
+        },
+        {
+            "name": "Elektro",
+            "order": 52
+        },
+        {
+            "name": "Essig & Öl",
+            "order": 53
+        },
+        {
+            "name": "Fischkonserven",
+            "order": 54
+        },
+        {
+            "name": "Schreibwaren",
+            "order": 55
+        },
+        {
+            "name": "Sonstiges",
+            "order": 56
+        },
+        {
+            "name": "Quengelware",
+            "order": 57
+        }
+    ]
+}

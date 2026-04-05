@@ -1,0 +1,36 @@
+<!-- rezept-modal.html -->
+
+<div class="modal fade" id="detailsModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-titel" id="modalRezeptTitel"></span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Seite 1: Foto + Zutaten -->
+        <div class="modal-carousel-page active" id="modalSeite1">
+          <div id="modalSeite1Bild"></div>
+          <div id="modalSeite1Zutaten"></div>
+        </div>
+        <!-- Seite 2: Zubereitung -->
+        <div class="modal-carousel-page" id="modalSeite2">
+          <div id="modalSeite2Zubereitung"></div>
+        </div>
+      </div>
+
+      <div class="modal-footer modal-action-bar">
+        <button type="button" class="btn modal-nav-btn" id="btnZurueck" onclick="modalGotoPage(1)">&#8592; Zurück</button>
+        <div class="modal-dots">
+          <span class="modal-dot active" id="modalDot1"></span>
+          <span class="modal-dot" id="modalDot2"></span>
+        </div>
+        <div class="modal-footer-right">
+          <button type="button" class="btn modal-nav-btn" id="btnWeiter" onclick="modalGotoPage(2)">Weiter &#8594;</button>
+          <button type="button" class="btn modal-nav-btn modal-nav-btn--vorlesen" id="btnVorlesen" onclick="modalToggleVorlesen()">&#128266; Vorlesen</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,106 @@
+{
+  "name": "Asia-Essen",
+  "zutaten": [
+    {
+      "id": 7,
+      "rezeptmenge": 300,
+      "rezepteinheit": "ml"
+    },
+    {
+      "id": 301,
+      "rezeptmenge": 1,
+      "rezepteinheit": "TL"
+    },
+    {
+      "id": 535,
+      "rezeptmenge": 4,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 779,
+      "rezeptmenge": 50,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 785,
+      "rezeptmenge": 50,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 39,
+      "rezeptmenge": 2,
+      "rezepteinheit": "EL"
+    },
+    {
+      "id": 496,
+      "rezeptmenge": 2,
+      "rezepteinheit": "EL"
+    },
+    {
+      "id": 594,
+      "rezeptmenge": 270,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 730,
+      "rezeptmenge": 4,
+      "rezepteinheit": "EL"
+    },
+    {
+      "id": 156,
+      "rezeptmenge": 4,
+      "rezepteinheit": "EL"
+    },
+    {
+      "id": 344,
+      "rezeptmenge": 4,
+      "rezepteinheit": "EL"
+    },
+    {
+      "id": 738,
+      "rezeptmenge": 1,
+      "rezepteinheit": "EL"
+    },
+    {
+      "id": 550,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    },
+    {
+      "id": 662,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    },
+    {
+      "id": 867,
+      "rezeptmenge": 1,
+      "rezepteinheit": "TL"
+    },
+    {
+      "id": 314,
+      "rezeptmenge": 350,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 318,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    },
+    {
+      "id": 873,
+      "rezeptmenge": 1,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 360,
+      "rezeptmenge": 1,
+      "rezepteinheit": "st"
+    }
+  ],
+  "zubereitung": "B Vorbereitung:\r\n• Zutaten bereitstellen, waschen und schneiden.\r\n• Arbeitsfläche und benötigte Geräte vorbereiten.\r\n\r\nB Zubereitung:\r\n1. Hauptkomponenten nach Rezept anbraten/kochen/backen, bis sie gar sind.\r\n2. Zwischendurch abschmecken und Konsistenz bei Bedarf mit etwas Flüssigkeit oder Bindung anpassen.\r\n\r\nB Servieren:\r\n• Anrichten und nach Wunsch mit Kräutern/Extras toppen.\r\n",
+  "vegetarisch": "ja",
+  "hauptgericht": "ja",
+  "kalorien": 0,
+  "frequenz": 0,
+  "rezept-id": 3
+}

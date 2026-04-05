@@ -1,0 +1,75 @@
+{
+  "rezept-id": 123,
+  "name": "Boef Stroganoff",
+  "zutaten": [
+    {
+      "id": 517,
+      "rezeptmenge": 600,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 608,
+      "rezeptmenge": 400,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 89,
+      "rezeptmenge": 350,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 838,
+      "rezeptmenge": 50,
+      "rezepteinheit": "ml"
+    },
+    {
+      "id": 158,
+      "rezeptmenge": 3,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 633,
+      "rezeptmenge": 3,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 738,
+      "rezeptmenge": 3,
+      "rezepteinheit": "TL"
+    },
+    {
+      "id": 873,
+      "rezeptmenge": 2,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 117,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Bech"
+    },
+    {
+      "id": 709,
+      "rezeptmenge": 1,
+      "rezepteinheit": "EL"
+    },
+    {
+      "id": 605,
+      "rezeptmenge": 1,
+      "rezepteinheit": "EL"
+    },
+    {
+      "id": 550,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    },
+    {
+      "id": 867,
+      "rezeptmenge": 1,
+      "rezepteinheit": "TL"
+    }
+  ],
+  "zubereitung": "B Vorbereitung:\r\n• Zutaten waschen/schneiden und Gewürze bereitlegen.\r\n• Topf/Pfanne erhitzen; falls Fleisch enthalten ist, zuerst portionsweise scharf anbraten.\r\n\r\nB Kochen:\r\n1. Aromaten (z. B. Zwiebeln/Knoblauch) anschwitzen, dann Hauptzutaten zugeben und kurz mitrösten.\r\n2. Mit Flüssigkeit ablöschen (Brühe/Tomaten/Sahne je nach Rezept) und aufkochen lassen.\r\n3. Bei mittlerer Hitze köcheln lassen, bis alles gar ist und sich die Aromen verbunden haben.\r\n4. Zum Schluss abschmecken (Salz, Pfeffer, Säure, Schärfe) und ggf. etwas eindicken lassen.\r\n\r\nB Servieren:\r\n• Mit passenden Beilagen servieren (Brot, Reis, Nudeln oder Kartoffeln – je nach Gericht).\r\n• I Tipp: Am nächsten Tag schmeckt vieles noch besser, weil es durchgezogen ist.\r\n",
+  "vegetarisch": "nein",
+  "kalorien": 0,
+  "frequenz": 0
+}

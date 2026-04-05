@@ -1,0 +1,56 @@
+{
+  "Vorratsorte": {
+    "Kühlschrank": {
+      "label": "Kühlschrank",
+      "beschreibung": "Alle Produkte, die gekühlt gelagert werden müssen"
+    },
+    "Gefrierschrank": {
+      "label": "Gefrierschrank",
+      "beschreibung": "Tiefgekühlte Produkte und Aufbackwaren"
+    },
+    "Vorratsschrank": {
+      "label": "Vorratsschrank",
+      "beschreibung": "Haltbare Lebensmittel und Konserven"
+    },
+    "Nudelschrank": {
+      "label": "Nudelschrank",
+      "beschreibung": "Nudeln, Getreide, Müsli, trockene Basics"
+    },
+    "Gewürze": {
+      "label": "Gewürze",
+      "beschreibung": "Gewürze, Öle, Kochbasics"
+    },
+    "Backzutaten": {
+      "label": "Backzutaten",
+      "beschreibung": "Mehl, Zucker, Backpulver, Backschokolade"
+    },
+    "Frühstück": {
+      "label": "Frühstück",
+      "beschreibung": "Brot, Marmelade, Honig, Müsli, Aufstriche"
+    },
+    "Obstschale": {
+      "label": "Obstschale",
+      "beschreibung": "Frisches Obst ohne Kühlung"
+    },
+    "Süßigkeiten-Tresor": {
+      "label": "Süßigkeiten-Tresor",
+      "beschreibung": "Süßigkeiten, Chips, Snacks"
+    },
+    "Getränke": {
+      "label": "Getränke",
+      "beschreibung": "Säfte, Bier, Wein, Softdrinks"
+    },
+    "Abstellkammer": {
+      "label": "Abstellkammer",
+      "beschreibung": "Reinigungsmittel, Vorräte außerhalb der Küche"
+    },
+    "Bad": {
+      "label": "Bad",
+      "beschreibung": "Hygieneartikel und Körperpflege"
+    },
+    "Sonstiger Ort": {
+      "label": "Sonstiger Ort",
+      "beschreibung": "Noch nicht eindeutig zugeordnete Produkte"
+    }
+  }
+}

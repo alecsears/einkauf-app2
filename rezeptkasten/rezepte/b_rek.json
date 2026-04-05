@@ -1,0 +1,51 @@
+{
+  "name": "Börek",
+  "zutaten": [
+    {
+      "id": 851,
+      "rezeptmenge": 10,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 297,
+      "rezeptmenge": 250,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 239,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Bnd"
+    },
+    {
+      "id": 377,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    },
+    {
+      "id": 371,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    },
+    {
+      "id": 550,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    },
+    {
+      "id": 662,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    },
+    {
+      "id": 867,
+      "rezeptmenge": 1,
+      "rezepteinheit": "TL"
+    }
+  ],
+  "zubereitung": "B Vorbereitung:\r\n• Zutaten bereitstellen, waschen und schneiden.\r\n• Arbeitsfläche und benötigte Geräte vorbereiten.\r\n\r\nB Zubereitung:\r\n1. Hauptkomponenten nach Rezept anbraten/kochen/backen, bis sie gar sind.\r\n2. Zwischendurch abschmecken und Konsistenz bei Bedarf mit etwas Flüssigkeit oder Bindung anpassen.\r\n\r\nB Servieren:\r\n• Anrichten und nach Wunsch mit Kräutern/Extras toppen.\r\n",
+  "vegetarisch": "ja",
+  "hauptgericht": "ja",
+  "kalorien": 0,
+  "frequenz": 0,
+  "rezept-id": 4
+}

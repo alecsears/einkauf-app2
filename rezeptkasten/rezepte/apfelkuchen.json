@@ -1,0 +1,61 @@
+{
+  "name": "Apfelkuchen",
+  "zutaten": [
+    {
+      "id": 77,
+      "rezeptmenge": 200,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 869,
+      "rezeptmenge": 220,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 460,
+      "rezeptmenge": 300,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 816,
+      "rezeptmenge": 2,
+      "rezepteinheit": "Pkg"
+    },
+    {
+      "id": 863,
+      "rezeptmenge": 0.5,
+      "rezepteinheit": "Fl"
+    },
+    {
+      "id": 134,
+      "rezeptmenge": 3,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 738,
+      "rezeptmenge": 50,
+      "rezepteinheit": "g"
+    },
+    {
+      "id": 32,
+      "rezeptmenge": 1,
+      "rezepteinheit": "TL"
+    },
+    {
+      "id": 875,
+      "rezeptmenge": 6,
+      "rezepteinheit": "st"
+    },
+    {
+      "id": 859,
+      "rezeptmenge": 1,
+      "rezepteinheit": "Pris"
+    }
+  ],
+  "zubereitung": "B Vorbereitung:\r\n• Ofen vorheizen (i. d. R. 170–190 °C Ober-/Unterhitze) und Form/Blech vorbereiten.\r\n• Alle Zutaten abwiegen und bereitstellen (Zimmertemperatur hilft beim Rühren).\r\n• Trockene Zutaten in einer Schüssel mischen, flüssige Zutaten separat bereitstellen.\r\n\r\nB Teig & Backen:\r\n1. Butter/Öl mit Zucker (oder Süße) cremig rühren, dann Eier (falls vorhanden) einzeln unterrühren.\r\n2. Trockene Zutaten abwechselnd mit Milch/Flüssigkeit kurz unterheben, nur so lange rühren wie nötig.\r\n3. Teig in die Form füllen, optional Früchte/Belag einarbeiten oder obenauf verteilen.\r\n4. Backen, bis die Oberfläche goldbraun ist und ein Stäbchentest sauber bleibt.\r\n\r\nB Finish:\r\n• Kurz abkühlen lassen, dann aus der Form lösen und vollständig auskühlen lassen.\r\n• I Tipp: Für extra Aroma nach dem Auskühlen leicht bestäuben (z. B. Puderzucker) oder glasieren.\r\n",
+  "vegetarisch": "ja",
+  "hauptgericht": "nein",
+  "kalorien": 0,
+  "frequenz": 0,
+  "rezept-id": 1
+}

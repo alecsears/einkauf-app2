@@ -1,0 +1,56 @@
+{
+    "name": "Baumstriezel",
+    "zutaten": [
+        {
+            "id": 460,
+            "rezeptmenge": 250,
+            "rezepteinheit": "g"
+        },
+        {
+            "id": 272,
+            "rezeptmenge": 100,
+            "rezepteinheit": "ml"
+        },
+        {
+            "id": 859,
+            "rezeptmenge": 100,
+            "rezepteinheit": "g"
+        },
+        {
+            "id": 77,
+            "rezeptmenge": 75,
+            "rezepteinheit": "g"
+        },
+        {
+            "id": 869,
+            "rezeptmenge": 50,
+            "rezepteinheit": "g"
+        },
+        {
+            "id": 816,
+            "rezeptmenge": 1,
+            "rezepteinheit": "Pä"
+        },
+        {
+            "id": 662,
+            "rezeptmenge": 1,
+            "rezepteinheit": "Pris"
+        },
+        {
+            "id": 134,
+            "rezeptmenge": 1,
+            "rezepteinheit": "st"
+        },
+        {
+            "id": 809,
+            "rezeptmenge": 0.5,
+            "rezepteinheit": "Pkg"
+        }
+    ],
+    "zubereitung": "1. Backofen handwarm vorheizen.\r\n2. Milch in der Mikrowelle lauwarm erwärmen.\r\n3. Hefe in der Milch auflösen und lange glatt rühren.\r\n4. Butter in der Mikrowelle schmelzen.\r\n5. In einer Schüssel die trockenen Zutaten vermengen.\r\n6. Hefemilch, das Ei und 25 g der geschmolzenen Butter hinzufügen und glatt rühren.\r\n7. Teig abgedeckt 45 Minuten im Backofen gehen lassen.\r\n8. Baumstriezelrollen mit Butter bestreichen.\r\n9. Zimt und Zucker in einer Auflaufform vermengen.\r\n10. Nach 45 Minuten den Teig dünn ausrollen, in Streifen schneiden und auf die Baumstriezel-Formen aufziehen.\r\n11. Den Teig auf den Striezel-Formen nochmals 20 Minuten im Backofen gehen lassen.\r\n12. Backofen auf 200 °C Umluft vorheizen.\r\n13. Baumstriezel mit der restlichen Butter bestreichen und in der Zimt-Zucker-Mischung wälzen.\r\n14. 15–20 Minuten im Backofen backen, dabei ab und zu wenden.",
+    "vegetarisch": "nein",
+    "hauptgericht": "nein",
+    "kalorien": 0,
+    "frequenz": 0,
+    "rezept-id": 143
+}
