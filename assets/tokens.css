@@ -90,3 +90,20 @@
   --logo-wrapper-max: 110px;
   --logo-wrapper-margin-bottom: 12px;
 }
+/* Button Rundung global und für Icon-Only-Button-Kreise */
+button,
+.button {
+  border-radius: var(--radius-circle);
+}
+
+.button.icon-only,
+.btn-icon,
+button.icon-only {
+  width: var(--nav-btn-min);
+  height: var(--nav-btn-min);
+  border-radius: var(--radius-circle);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
