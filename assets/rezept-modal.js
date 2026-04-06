@@ -96,7 +96,7 @@ async function showPreviewModal(slug, bild) {
     await ladeEinheitenMap();
   }
   try {
-    const res = await fetch(`rezeptkasten/rezepte/${slug}.json?ts=${Date.now()}`);
+    const res = await fetch(`../rezeptkasten/rezepte/${slug}.json?ts=${Date.now()}`);
     if (!res.ok) throw new Error("Rezeptdaten konnten nicht geladen werden!");
     const details = await res.json();
 
