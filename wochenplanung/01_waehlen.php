@@ -164,12 +164,6 @@ if (file_exists($statsFile)) {
           <span class="material-symbols-outlined">bar_chart</span>
         </div>
       </div>
-
-      <div>
-        <div id="resetBtnHeader" class="zufall-kachel action-btn me-2" onclick="resetAuswahlUndFilter(); return false;">
-          <span class="material-symbols-outlined">restart_alt</span>
-        </div>
-      </div>
     </div>
 
     <div id="auswahlListe" class="auswahl-liste"></div>
@@ -465,7 +459,7 @@ if (file_exists($statsFile)) {
         // Cluster-Header (gleicher Style wie A–Z: .col-12.buchstabe)
         const header = document.createElement('div');
         header.className = 'col-12 buchstabe';
-        header.innerHTML = `<span class="material-symbols-outlined" style="font-size:1.2rem;vertical-align:-3px;margin-right:4px;">bar_chart</span>${gruppe.label}×`;
+       header.textContent = `${gruppe.label}×`;
         container.appendChild(header);
 
         // Rezepte innerhalb der Gruppe alphabetisch sortieren
