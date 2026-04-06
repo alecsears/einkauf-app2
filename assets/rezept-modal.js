@@ -4,7 +4,7 @@ window.einheitenMap = {};
 async function ladeEinheitenMap() {
   if (Object.keys(window.einheitenMap).length > 0) return window.einheitenMap;
   try {
-    const res = await fetch('produkte/einheiten.json');
+    const res = await fetch('../produkte/einheiten.json');
     if (res.ok) {
       const data = await res.json();
       if (data.Produkteinheiten) window.einheitenMap = data.Produkteinheiten;
